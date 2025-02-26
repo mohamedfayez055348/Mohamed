@@ -19,7 +19,7 @@ var_construction_type_second=StringVar()
 #قائمة نوع العملية التي يرث منها راديو بوتون نوع العملية
 opretor_type_list=("Mixing","Increase","Dilute","Preparation")
 soulation_type_list=["Salad","Suggar"]
-construction_type_list=("Salometer","Bomiat","Balng")
+construction_type_list=("Salometer","Bomiat","Balng")#
 def placeing():
 	if var_opretor_type.get()=="Preparation":
 		label_entry_main_construction.config(text=reshape("تركيز المحلول")[::-1])
