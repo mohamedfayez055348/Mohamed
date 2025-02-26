@@ -7,7 +7,7 @@ pro.geometry("680x1480")
 #خاصية التحكم في العنوان
 pro.title("Person Square")
 #خاصية التحكم في خصائص النافذة (اللون)
-pro.config(bg="#F7E1FF")
+pro.config(bg="#F7E1FF")#
 #متغيرات الوصول
 #1-متغير الوصول الي نوع العملية والمربوط (opretor_type)
 var_opretor_type=StringVar(value="Preparation")
